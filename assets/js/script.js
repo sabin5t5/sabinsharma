@@ -1,6 +1,7 @@
 $( document ).ready(function() {
                 
                 $("#about_scroll").fadeOut();   
+                $("#qualification_scroll").fadeOut();
                 $("#work_scroll").fadeOut();
                 $("#contact_scroll").fadeOut();
 
@@ -10,6 +11,14 @@ $( document ).ready(function() {
                     $('#about_left').addClass('animated slideInLeft');
                     $('#about_right').addClass('animated slideInRight');
                     });
+
+                $("#qualification").click(function(){
+                    $("#index").fadeOut();
+                    $("#qualification_scroll").fadeIn();
+                    $('#qualification_left').addClass('animated slideInLeft');
+                    $('#qualification_right').addClass('animated slideInRight');
+                    });
+
                 $("#work").click(function(){
                     $("#index").fadeOut();
                     $("#work_scroll").fadeIn();
