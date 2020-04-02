@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^sabinsharma\.com.np [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ http://sabinsharma.com.np/$1 [R,L]
